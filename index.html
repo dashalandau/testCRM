@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Test CRM</title>
+</head>
+<body class="flex">
+  <section id="sidebar" class="mobile-hidden h-screen bg-white" style="width: 306px; box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.50);">
+    <div class="flex items-center pb-16" style="padding-top: 36px;">
+        <img src="./img/setting 1.svg" style="padding-left: 28px;">
+        <p class="pl-2 font-poppins font-semibold text-black" style="font-size: 26px;">Dashboard</p>
+        <p class="self-end font-poppins pl-1 mb-1" style="color: #838383; font-size: 10px;">v.01</p>
+    </div>
+    <div class="items-center flex pb-10" style="padding-left: 39px;">
+      <img src="/img/key-square.svg" style="padding-right: 14px;">
+      <p class="font-poppins font-medium text-sm" style="color: #9197B3;">Dashboard</p>
+    </div>
+    <div class="items-center flex pb-10" style="padding-left: 39px;">
+      <img src="/img/3d-square 1.svg" style="padding-right: 14px;">
+      <p class="font-poppins font-medium text-sm" style="color: #9197B3;">Product</p>
+      <img src="/img/chevron-right 2 (1).svg" style="padding-left: 123px;"> 
+    </div>
+    <div class="items-center flex rounded-lg" style="margin: 0 28px; background: #5932EA; padding: 11px;">
+      <img src="/img/user-square 1.svg" style="padding-right: 14px;">
+      <p class="font-poppins font-medium text-sm" style="color: #fff">Customers</p>
+      <img src="/img/chevron-right 2.svg" style="padding-left: 100px;"> 
+    </div>
+    <div class="items-center flex pb-10" style="padding-left: 39px; padding-top: 29px;">
+      <img src="/img/wallet-money 2.svg" style="padding-right: 14px;">
+      <p class="font-poppins font-medium text-sm" style="color: #9197B3;">Income</p>
+      <img src="/img/chevron-right 2 (1).svg" style="padding-left: 124px;"> 
+    </div>
+    <div class="items-center flex pb-10" style="padding-left: 39px;">
+      <img src="/img/discount-shape 1.svg" style="padding-right: 14px;">
+      <p class="font-poppins font-medium text-sm" style="color: #9197B3;">Promote</p>
+      <img src="/img/chevron-right 2 (1).svg" style="padding-left: 117px;"> 
+    </div>
+    <div class="items-center flex pb-10" style="padding-left: 39px;">
+      <img src="/img/message-question 1.svg" style="padding-right: 14px;">
+      <p class="font-poppins font-medium text-sm" style="color: #9197B3;">Help</p>
+      <img src="/img/chevron-right 2 (1).svg" style="padding-left: 145px;"> 
+    </div>
+    <div class="flex" style="padding: 620px 0 78px 28px;">
+      <img src="/img/Ellipse 8.svg">
+      <div style="padding-left: 12px;">
+        <p class="font-medium text-sm font-poppins">Evano</p>
+        <p class="text-xs font-poppins" style="color: #757575;">Project Manager</p>
+      </div>
+    </div>
+  </section>
+  <section class="h-screen" style="background-color: #FAFBFF; padding: 41px 95px 0 71px;">
+      <div style="padding-bottom: 51px;">
+        <p class="font-medium text-2xl font-poppins">Hello Evano 👋🏼,</p>
+      </div>
+      <div class="flex flex-col justify-between bg-white rounded-2xl" style="padding-top: 30px; filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.50));">
+        <div class="flex items-center">
+          <div class="flex flex-col" style="padding-left: 38px;">
+            <p class="font-poppins font-semibold" style="font-size: 22px; padding-bottom: 7px;">All Customers</p>
+            <p class="text-sm font-poppins" style="color: #16C098;">Active Members</p>
+          </div>
+          <div class="flex items-center" style="background-color: #F9FBFF; padding-left: 546px; padding-right: 187px;">
+            <img src="/img/search 1.svg" class="pr-2">
+            <p class="font-poppins text-xs" style="color: #B5B7C0;">Search</p>
+          </div>
+        </div>
+        <style>
+          table {
+            border-collapse: separate;
+            border-spacing: 0 24px;
+            width: 100%;
+          }
+          td, th {
+            padding: 10px;
+          }
+          tr {
+            position: relative;
+          }
+          tr:after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #EEE;
+          }
+        </style>
+        <div style="margin: 40px 44px 0 38px;">
+          <table>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #B5B7C0;">Customer Name</td>
+              <td class="font-poppins text-sm font-medium" style="color: #B5B7C0;">Company</td>
+              <td class="font-poppins text-sm font-medium" style="color: #B5B7C0;">Phone Number</td>
+              <td class="font-poppins text-sm font-medium" style="color: #B5B7C0;">Email</td>
+              <td class="font-poppins text-sm font-medium" style="color: #B5B7C0;">Country</td>
+              <td class="font-poppins text-sm font-medium" style="color: #B5B7C0;">Status</td>
+            </tr>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Jane Cooper</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Microsoft</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">(225) 555-0118</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">jane@microsoft.com</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">United States</td>
+              <td class="text-center">
+                <p class="font-poppins items-center text-sm font-medium" style="color: #008767; border-radius: 4px!important; border: 1px solid #00B087; background: rgba(22, 192, 152, 0.38); padding :4px 16px;">Active</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Floyd Miles</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Yahoo</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">(205) 555-0100</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">floyd@yahoo.com</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Kiribati</td>
+              <td class="text-center">
+                <p class="font-poppins text-sm font-medium" style="color: #DF0404; border-radius: 4px; border: 1px solid #DF0404;background: #FFC5C5; padding :4px 12px;">Inactive</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Ronald Richards</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Adobe</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">(302) 555-0107</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">ronald@adobe.com</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Israel</td>
+              <td class="text-center">
+                <p class="font-poppins text-sm font-medium" style="color: #DF0404; border-radius: 4px; border: 1px solid #DF0404;background: #FFC5C5; padding :4px 12px;">Inactive</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Marvin McKinney</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Tesla</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">(252) 555-0126</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">marvin@tesla.com</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Iran</td>
+              <td class="text-center">
+                <p class="font-poppins items-center text-sm font-medium" style="color: #008767; border-radius: 4px!important; border: 1px solid #00B087; background: rgba(22, 192, 152, 0.38); padding :4px 16px;">Active</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Jerome Bell</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Google</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">(629) 555-0129</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">jerome@google.com</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Réunion</td>
+              <td class="text-center">
+                <p class="font-poppins items-center text-sm font-medium" style="color: #008767; border-radius: 4px!important; border: 1px solid #00B087; background: rgba(22, 192, 152, 0.38); padding :4px 16px;">Active</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Kathryn Murphy</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Microsoft</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">(406) 555-0120</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">kathryn@microsoft.com</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Curaçao</td>
+              <td class="text-center">
+                <p class="font-poppins items-center text-sm font-medium" style="color: #008767; border-radius: 4px!important; border: 1px solid #00B087; background: rgba(22, 192, 152, 0.38); padding :4px 16px;">Active</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Jacob Jones</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Yahoo</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">(208) 555-0112</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">jacob@yahoo.com</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Brazil</td>
+              <td class="text-center">
+                <p class="font-poppins items-center text-sm font-medium" style="color: #008767; border-radius: 4px!important; border: 1px solid #00B087; background: rgba(22, 192, 152, 0.38); padding :4px 16px;">Active</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Kristin Watson</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Facebook</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">(704) 555-0127</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">kristin@facebook.com</td>
+              <td class="font-poppins text-sm font-medium" style="color: #292D32;">Åland Islands</td>
+              <td class="text-center">
+                <p class="font-poppins text-sm font-medium" style="color: #DF0404; border-radius: 4px; border: 1px solid #DF0404;background: #FFC5C5; padding :4px 12px;">Inactive</p>
+              </td>
+            </tr>
+          </table>
+          <div class="pt-8 flex justify-between" style="padding-bottom: 41px;">
+            <p class="font-poppins text-sm font-medium self-center" style="color: #B5B7C0">Showing data 1 to 8 of  256K entries</p>
+            <div class="flex">
+              <img src="/img/_.svg" style="padding: 6px 9px; border-radius: 4px; border: 1px solid #EEE; background: #F5F5F5; margin-right: 12px;">
+              <p class="rounded text-xs font-medium" style="padding: 6px 10px; border: 1px solid #5932EA; margin-right: 12px; background-color:#5932EA; color: #fff;">1</p>
+              <p class="rounded text-xs font-medium" style="padding: 6px 9px; border: 1px solid #EEE; background: #F5F5F5; margin-right: 12px;">2</p>
+              <p class="rounded text-xs font-medium" style="padding: 6px 9px; border: 1px solid #EEE; background: #F5F5F5; margin-right: 12px;">3</p>
+              <p class="rounded text-xs font-medium" style="padding: 6px 9px; border: 1px solid #EEE; background: #F5F5F5; margin-right: 12px;">4</p>
+              <p class="rounded text-xs font-medium self-center" style="margin-right: 12px;">...</p>
+              <p class="rounded text-xs font-medium" style="padding: 6px 9px; border: 1px solid #EEE; background: #F5F5F5; margin-right: 12px;">40</p>
+              <img src="/img/_ (1).svg" style="padding: 6px 9px; border-radius: 4px; border: 1px solid #EEE; background: #F5F5F5;">             
+          </div>
+        </div>
+      </div>
+  </section>
+  <div class="burger-menu mobile-only" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <script>
+    function toggleMenu() {
+      var sidebar = document.getElementById("sidebar");
+      sidebar.style.display === "none" ? (sidebar.style.display = "block") : (sidebar.style.display = "none");
+    }
+  </script>
+</body>
+</html>
